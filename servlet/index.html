@@ -36,7 +36,7 @@
     
     
       
-        <title>1. 类的构造器 - JavaWeb学习笔记</title>
+        <title>Servlet - JavaWeb学习笔记</title>
       
     
     
@@ -102,7 +102,7 @@
                 JavaWeb学习笔记
               </span>
               <span class="md-header-nav__topic">
-                1. 类的构造器
+                Servlet
               </span>
             
           
@@ -171,7 +171,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" title="Java面向对象" class="md-tabs__link md-tabs__link--active">
+        <a href="../construtor/" title="Java面向对象" class="md-tabs__link">
           Java面向对象
         </a>
       
@@ -184,7 +184,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../servlet/" title="JavaWeb" class="md-tabs__link">
+        <a href="./" title="JavaWeb" class="md-tabs__link md-tabs__link--active">
           JavaWeb
         </a>
       
@@ -231,12 +231,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
       Java面向对象
@@ -244,6 +242,44 @@
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
         Java面向对象
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../construtor/" title="1. 类的构造器" class="md-nav__link">
+      1. 类的构造器
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      JavaWeb
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        JavaWeb
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -260,46 +296,10 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
-    <a href="./" title="1. 类的构造器" class="md-nav__link md-nav__link--active">
-      1. 类的构造器
-    </a>
-    
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
-    
-    <label class="md-nav__link" for="nav-3">
-      JavaWeb
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        JavaWeb
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../servlet/" title="Servlet" class="md-nav__link">
+    <a href="./" title="Servlet" class="md-nav__link md-nav__link--active">
       Servlet
     </a>
+    
   </li>
 
         
@@ -321,19 +321,9 @@
               
                 
                 
-                  <h1>1. 类的构造器</h1>
+                  <h1>Servlet</h1>
                 
-                <ul>
-<li>
-<p>当类中没有构造器时，默认继承父类的无参数构造器；</p>
-</li>
-<li>
-<p>当类中有无参数构造器时，则new时先运行父类的无参数构造器，再运行该类的无参数构造器，即子类有无参数构造器时，父类必须也有无参数构造器；</p>
-</li>
-<li>
-<p>当子类中只有有参数构造器时，则new时也要传入参数，先运行父类的无参数构造器，再运行该类的有参数构造器；</p>
-</li>
-</ul>
+                <p><img alt="" src="/img/servlet.png" /></p>
                 
                   
                 
@@ -354,7 +344,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../construtor/" title="1. 类的构造器" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -363,25 +353,11 @@
                 <span class="md-footer-nav__direction">
                   后退
                 </span>
-                Introduction
+                1. 类的构造器
               </span>
             </div>
           </a>
         
-        
-          <a href="../servlet/" title="Servlet" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  前进
-                </span>
-                Servlet
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
